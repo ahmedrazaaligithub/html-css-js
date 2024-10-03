@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .invoice-container {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+        .header, .footer {
+            width: 100%;
+            /* display: flex; */
+            /* justify-content: start; */
+            /* align-items: center; */
+        }
+        .footer{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .footer div{
+            width: 100%;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+        }
+        .footer div >p{
+            text-align: center;
+        }
+        .footer p {
+            width: 50%;
+            flex: 1;
+            text-align: start;
+        }
+        .header {
+            margin-bottom: 20px;
+            display: flex ;
+            justify-content: space-between;
+        }
+        .header img {
+            position: relative;
+           top: -30px;
+        }
+        .header .company-details {
+            text-align: left;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+            flex: 0.5;
+        }
+        .header .company-details p {
+            margin: 0;
+            line-height: 1.5;
+        }
+        .bold {
+            font-weight:bold;
+            
+        } 
+        .invoice-title {
+            text-align: left;
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        .paid {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-30%, -90%);
+            rotate: -30deg;
+            font-size: 350px;
+            font-weight: bold;
+            color: rgba(0, 0, 0, 0.1);
+            z-index:1;
+        }
+        .invoice-details {
+            margin-bottom: 20px;
+        }
+        .invoice-details p {
+            margin: 0;
+        }
+        .invoice-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .invoice-table th, .invoice-table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        .invoice-table th {
+            background-color: #f5f5f5;
+        }
+        .note {
+            font-size: 12px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="invoice-container">
+        <div class="header">
+            <img src="https://res.cloudinary.com/date1bmhd/image/upload/v1722949713/logo_mcibfu.svg" alt="">
+            <div class="company-details">
+                <p class="bold">QR Insight</p>
+                <p>Office # C-2, Osif Center, Main University Road, Block 13-A Gulshan-e-Iqbal Karachi.</p>
+                <p>Email: info@barcodes.pk</p>
+               <a href="https://www.qrinsight.co/"><p>Web: https://www.qrinsight.co/</p> </a>
+            </div>
+        </div>
+        <div class="invoice-title">
+            Invoice
+        </div>
+        <div class="invoice-details">
+            <p>Order Date: 12th June, 2024</p>
+            <p>Invoice to:</p>
+            <p>WAQAS RASHID</p>
+            <p>PackR Pharmaceuticals</p>
+            <p>Address: 36km Multan Rd, Sundar Sharif, Lahore, Punjab 54500</p>
+            <p>Email: rashid.waqas@packrpharmaceuticals.com.pk</p>
+            <p>Phone: +923025515654</p>
+        </div>
+        <table class="invoice-table">
+            <thead>
+                <tr>
+                    <th>Description</th>
+                    <th>Cost Per QR</th>
+                    <th>Qty</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>PDF QR Code</td>
+                    <td>Rs 6,000</td>
+                    <td>7</td>
+                    <td>Rs 42,000</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Subtotal</td>
+                    <td>Rs 42,000</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Total</td>
+                    <td>Rs 42,000</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="note">Note: The validity of these QR Codes is 1 Year, valid till 12th July, 2024.</p>
+        <div class="footer">
+            <p>Qr Insight is an authorized member of the <br> International Barcodes Network <a href="https://internationalbarcodes.net"> (https://internationalbarcodes.net) </a></p>
+            <div>
+
+                <p>All amounts are in PKR</p>
+                <p>1 of 1</p>
+            </div>
+        </div>
+        <div class="paid">PAID</div>
+    </div>
+</body>
+</html>

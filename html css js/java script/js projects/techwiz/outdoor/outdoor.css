@@ -1,0 +1,47 @@
+:root{
+    --themeGreen-:#65a15a;
+    --themegray-:gray
+}
+
+
+.slider{
+    height: 90vh;
+}
+/* .slider>div>div{
+    height: 100%;
+} */
+.cardTwo{
+    height: 80vh;
+}
+.miniRow{
+    height:100% ;
+    width: 100%;
+   
+}
+
+.siderImg{
+    object-fit: cover;
+}
+.content_div>.h3{
+    color: var(--themeGreen-);
+    border-bottom: 3px solid white;
+    cursor: pointer;
+
+}
+.content_div>.h3:hover{
+    border-bottom: 3px solid var(--themeGreen-);
+    transition: 1s;
+}
+.content_div>p{
+    color: var(--themegray-);
+    width: 60%;
+}
+
+
+
+
+@media (max-width:1000px) {
+    .cardTwo{
+        display: none;
+    }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        background-color: blanchedalmond;
+        padding: 34px;
+        margin: 4px;
+        border: 1px solid gray;
+        font-size: 23px;
+        text-align: center;
+    }
+    #tim{font-weight: bold;}
+</style>
+<body>
+   <div>
+   time is <span id="tim"></span>
+    </div>
+    
+    
+    
+    
+    
+    <script>
+    //     var a = new Date()
+    //     console.log(a);
+    //     var b = new Date(0)
+    //     console.log(b)
+
+    // customize your date with this method
+//    var c = new Date("2023-01-27") 
+//    console.log(c)
+// date with (year,months,date,hours,minuts,second,milliseconds)
+let d = new Date(2024,0,27,01,01,01) 
+   console.log(d);
+//    var year = d.getFullYear()
+//    console.log(year);
+//     var month = d.getMonth()
+//    console.log(month);
+//    var dat = d.getDay()
+//    console.log(dat);
+//    var hour = d.getHours()
+//    console.log(hour);
+
+//    var hdat = d.getDate()
+//    console.log(hdat);
+d.setDate(39) // setDate
+console.log(d);   //39 is not a date so it will automatic work correct 
+d.setMinutes(29)// setMinuts
+console.log(d);   //29 is date so it will automatic work 
+// sethouors// setdays etc
+
+
+
+// date.now   //it will show the date from 1970 first time .
+//  let dt= Date.now()
+//  console.log(dt)
+//  it wii show the time from first standerd to till now in mili scnds
+
+// //    want time of utc (london time zone is utc)
+// time in utc
+
+//watch on web
+setInterval(runTime,1000)
+function runTime(){
+    tim.innerHTML = new Date();
+}
+     </script>
+</body>
+</html>

@@ -1,0 +1,219 @@
+
+.nav {
+    background:rgba(0,0,0,1);
+   
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    margin-top: -8px;
+    font-weight: 100;
+    font-size: 14px;
+    
+}
+.navitem{
+    display: inline-block;
+    padding: 8.5px 23px 0px 23px;
+   
+}
+.navlink{
+    color: rgb(194, 189, 189);
+    text-decoration: none
+}
+.navlink:hover{
+    color: white;}
+.unicefbar{
+    background:rgba(0,0,0,0.1);
+    width: 100%;
+    height: 70px;
+    margin-top: 0px;
+}
+.uniceftext{
+    font-size: 200%;
+    align-content: center;
+    padding-left:30% ;
+    
+    display: inline-block;
+
+}
+.unicefbar > a{
+    color: cornflowerblue;
+    text-decoration: none;
+ padding-left: 10px;   
+}
+.unicefbar > a:hover{
+    text-decoration: underline;
+    
+}
+.macbookmain{
+    height: auto;
+}
+.macbook{
+    width: 35%;
+    display: inline-block;
+    /* padding: 20% 0% 0% 5%; */
+    
+   
+}
+.macbookhead {
+    text-align: center;
+    padding-top: 40%;
+    font-weight: bold;
+    font-size: 60px;
+    
+}
+.para{
+    text-align: center;
+    font-size: 32px;
+   margin-top: -9%;
+}
+
+.linkdv{
+    text-align: center;
+    width: 33%;
+    font-size: 22px;
+margin-top: -2%;
+}
+.paralink{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0;
+    text-align: center;
+    color: cornflowerblue;
+    padding-left: 2%;
+    
+}
+.paralink:hover{
+    text-decoration: underline;
+    
+}
+.lines{
+    width: 60%;
+    display: inline-block;
+    
+    margin-left: 35%;
+}
+.linespic{
+    width: 100%;
+    height: 90%;
+    margin-top: -39%;
+}
+.iphonemain{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.iphonehead{
+    font-size: 60px;
+}
+.ip{
+    font-size: 32px;
+    margin-top: -3%;
+}
+.ilinkdv:hover{
+    text-decoration: underline;
+
+}
+.ilinkdv{
+    margin-top: -2%;
+}
+.ilink{
+    text-decoration: none;
+    color: cornflowerblue;
+    font-size: 22px;
+    
+    padding-left: 2%;
+}
+.ipic{
+    margin-top: 2%;
+    width: 50%;
+}
+.colhead{
+    font-size: 70px;
+    padding-top: 3%;  
+}
+.colhead > span{
+    color: #ff006e;
+}
+.colimg{
+    margin-top: 2%;
+    width: 30%;
+}
+.phonemac{
+width: 50%;
+height: auto;
+text-align: center;
+justify-content: center;
+display: inline-block;
+}
+.uniceftextb{
+    font-size: 200%;
+    margin-left: 13%;
+ 
+    }
+.pp{
+   margin-left: 16%;
+   margin-top: -1%; 
+   font-size: 20px;
+}
+.ohlink{
+    margin-left: 11%;
+    margin-top: -1%;
+}
+.ilinkb{
+    text-decoration: none;
+    color: cornflowerblue;
+    font-size: 22px;
+    
+    padding-left: 2%;
+}
+.ohpic{
+    margin-left: 12.5%;
+    display: inline-block;
+}
+.phonemacb{
+    width: 50%;
+    height: auto;
+    display: inline-block;
+}
+.iphonemainb{
+   
+    
+    width: 100%;
+    height: auto;
+}
+.ohpicb{
+    margin-left: 15.5%;
+    display: inline-block;
+    width: 120%;
+}
+.ppb{
+    margin-left: 14%;
+    margin-top: -1%; 
+    font-size: 20px;
+    color: red;
+ }
+.watch{
+    padding-top: 2%;
+    display: inline-block;
+}
+.ohpica{
+    margin-left: 0%;
+    display: inline-block;
+}
+.ipad{
+    width: 20%;
+    height: auto;
+}
+.ohpicd{
+    margin-left: 50.5%;
+    display: inline-block;
+    width: 40%;
+    margin-top: -26%;
+    
+}
+.table{
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .container{
+            background-color: rgb(40, 63, 105);
+            color: rgb(248, 248, 248);
+            padding: 34px;
+            font-size: 23px;
+        }
+        #a,#b,#c{margin: 34px;padding: 20px;box-sizing: border-box;height: 60px;}
+        #a{background-color: rgb(143, 143, 151);}
+        #b{background-color: rgb(143, 143, 151);}
+        #c{background-color: rgb(143, 143, 151);}; 
+    </style>
+</head>
+<body>
+    <div class="container">
+<div id="a" ></div>
+<div id="b"></div>
+<div id="c"></div></div>
+
+    <script>
+        // function greet(){
+        //     console.log('good morning');
+        // }
+        // greet()
+        // from arrow function we can do work shortly so lets work on arrow function 
+        // greet = ()=>{
+        //     console.log('good morning')
+        // }
+        // //it will as work as function works
+
+// sum = (a,b)=>
+// {
+//  console.log(a+b);  //it can be short more see down
+// }
+sum = (a,b)=>  a+b ;    //its a shortend we ha madefunction wi console witout call console
+half = a => console.log(a/2)        // '/2'it will give half value 
+
+        // my work
+        setTimeout(() => {
+            document.getElementById('a').innerHTML = 'after 2 secnds'
+        }, 2000);
+        setTimeout(() => {
+            document.getElementById('b').innerHTML = 'after 4 secnds'
+        }, 4000); setTimeout(() => {
+            document.getElementById('c').innerHTML = 'after 6 secnds'
+        }, 6000);
+
+        //this
+        // let obj1={
+        //     students: ['ahmed','raza','yameen','maaz'],
+        //    speak(){
+        //     this.students.forEach(students=>{
+        //         console.log(students+' '+'how are you')
+        //     })
+        //    }
+        // };
+        // obj1.speak();
+
+
+        // obj_a= {
+        //     bros: ['ahmed','anus','farooq'],
+        //     son(){
+        //         this.bros.forEach(bros=>{
+        //             console.log(bros+' '+'is son of muhammad ali')
+        //         })
+        //     }
+        // }
+        // obj_a.son();
+       let obj2 = {
+       greeting :'good morning',
+       bros: ['ahmed','anus','farooq'],
+        greet(){
+            this.bros.forEach(bros=>{
+                console.log(this.greeting+' '+bros)
+            })
+        }
+       }
+       obj2.greet();
+       //if we dont use short function on line80 so the result will be undifiened.
+    </script>
+</body>
+</html>

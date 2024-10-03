@@ -1,0 +1,268 @@
+/* navbar */
+.table{
+    display: flex;
+    justify-content: space-around;
+    /* border-spacing: 20px; */
+    background-color:#000000CC;
+    color: white;
+}
+table{
+    text-transform: capitalize;
+}
+.nav-item{
+    padding: 10px 20px;
+    color: rgb(200, 197, 197);
+    cursor: pointer;
+}
+.nav-item:hover{
+    color:white
+}
+ /* sec-1
+.sec-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    border-bottom: 1px solid gray;
+    border-bottom:solid;
+    width:350px;
+     margin:auto;
+    border-bottom:none;
+    background:linear-gradient(#00000029,#00000029) bottom left or right or else no-repeat;
+    background-size:68% 1px;
+
+}
+.sec-1-link{
+    color: black;
+    padding-right: 10px;
+    text-decoration: none;
+
+}
+
+.sec-1-link:hover{
+    color: cornflowerblue;
+}
+.button{
+    background-color: cornflowerblue; 
+    color: white; 
+    justify-content: center; 
+    border-radius: 10px; 
+    padding: 4px 15px;
+
+}
+.button:hover{
+    background-color: rgb(108, 154, 239);
+   color: white; */
+
+/* }  */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 85vh;
+    flex-direction: column;
+    line-height: 10px;
+    margin-bottom: 30px;
+    /* padding-top: 50px; */
+
+}
+
+.lead{
+    font-size: 32px;
+    text-align: center;
+}
+.sec-a-link{
+    padding-left: 20px;
+    color: rgb(71, 128, 234);
+    text-decoration: none;
+    font-size: 22px;
+}
+.sec-a-link:hover{
+   
+    text-decoration: underline;
+}
+.b {
+    height: 400px;
+
+    /* padding-top: 5px; */
+    /* order: 1; */
+
+}
+
+/* .c{
+    height: 200px;
+} */
+.img{
+    
+    /* margin-bottom:18px; */
+    min-height:auto;
+    /* background-color: aqua; */
+    /* width: 60%; */
+    /* order: 1; */
+    /* padding-: 10px; */
+}
+
+ section-2 
+.bg-dark{
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    height: 85vh;
+}
+/* section-3 */
+/* .sec-3{
+    margin-top: 40px;
+    margin-bottom: 40px;
+} */
+h3{
+    color:#f56900;
+    margin-top: -2px;
+}
+/* section-4 */
+.container-b{
+    display: grid;
+    grid-gap: 1em;
+    /* background: black; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    /* margin-top: 40px; */
+    grid-template-columns: 1fr 1fr;
+}
+.container-b > div {
+    height: 450px;
+}
+
+.img-2{
+    min-height:auto;
+    margin-bottom:0px;
+
+    /* grid-gap: 1em;margin-left: 10px; */
+}
+.img-b{
+    margin-bottom:0px;
+    margin-top: 15px;
+    height: 253px;
+    /* position: absolute; */
+    margin-bottom: 0px;
+}
+.grid{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.grid2
+{
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.grey{
+    background-color: #ddd;
+}
+.slider{
+    background-image: url(slider.webp);
+    background-size: auto;
+    background-repeat: no-repeat;
+   margin:50px 50px;
+   
+   
+    height: 85vh;
+}
+footer{
+    background-color: #eee;
+    color: grey;
+     font-size: 14px;
+   
+   
+    /* align-items: center; */
+}
+.text{
+   
+    padding: 20px 40px;
+    margin-top:40px;
+     display: flex;
+     justify-content: center;
+    flex-direction: column;
+
+}
+.last {
+    padding: 05px 10px;
+     
+     display: flex;
+    
+      flex-direction: row;
+    
+     /* justify-content: center; */
+    
+     margin: auto;
+
+
+     /* text-align: center; */
+    
+ /* justify-content: space-around; */
+
+ }
+ tr td,tr th{
+    text-align: left;
+ }
+
+
+ .last>div{ 
+
+     /* padding-right: 110px;  */
+
+ 
+
+
+ padding: 20px 40px; 
+ 
+
+ margin-top:40px; 
+ 
+
+
+ } 
+ 
+/* .main{
+    display: flex;
+    justify-content: center;
+} */
+.bol{
+    font-weight: bold;
+}
+.lines{
+    display: flex;
+    
+     justify-content: center; 
+    /* align-items: center; */
+    flex-direction: column;
+    width: 80%;
+padding: 20px 40px;
+
+   
+}
+span{
+    color: cornflowerblue;
+    
+}
+.divider {
+  
+    height:30px;
+   
+    width: 100%;
+    margin:-19px auto;
+    float: left;
+    border-bottom: 1px solid grey;
+    margin-bottom: -40px;
+    margin-top: -40px;
+    }
+    

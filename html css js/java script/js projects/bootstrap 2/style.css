@@ -1,0 +1,60 @@
+.nav-link{
+    /* color: white ; */
+    font-weight: bold !important;
+    padding: 0px 35px 0px 0px !important;
+}
+.fa-cart-shopping,.fa-circle-user{
+    font-size: 18px !important;
+}
+/* .home:focus{
+    color: aqua !important;
+}
+
+.features:focus{
+    color: aqua !important;
+}
+.shop:focus{
+    color: aqua !important;
+} */
+.main-card{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+}
+.card-1,.card-2,.card-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: dark; */
+    width: 300px;
+    height: 100px;
+    margin-top: 10px;
+    box-shadow: 2px 4px 5px white !important;
+    
+}
+@media only screen and (max-width: 767px) {
+    .card-1,.card-2,.card-3 {
+      width: 100%;
+    }
+  }
+.fa-headphones,.fa-truck,.fa-thumbs-up{
+    margin-right: 10px;
+    font-size: 22px;
+}
+footer{
+    position: relative;
+}
+.lead{
+    text-align: end;
+    position: absolute;
+    /* top: 50%; */
+    top: 25%;
+    right: 10%;
+    color: white;
+    /* font-size: 32px !important; */
+}
+.lead:hover{
+   color: white;
+}

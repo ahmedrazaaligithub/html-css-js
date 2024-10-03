@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <div class="container">
+        <h1>CALCULATOR</h1>
+        <div class="calculator">
+            <input type="text" id="screen">
+            <table>
+                <tr>
+                    <td><button onclick="prin(7)" id="btn">7</button></td>
+                    <td><button onclick="prin(8)">8</button></td>
+                    <td><button onclick="prin(9)">9</button></td>
+                    <td><button onclick="prin('*')">x</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="prin(4)">4</button></td>
+                    <td><button onclick="prin(5)">5</button></td>
+                    <td><button onclick="prin(6)">6</button></td>
+                    <td><button onclick="prin('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="prin(1)">1</button></td>
+                    <td><button onclick="prin(2)">2</button></td>
+                    <td><button onclick="prin(3)">3</button></td>
+                    <td><button onclick="prin('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="prin(0)">0</button></td>
+                    <td><button onclick="prin('/')">/</button></td>
+                    <td><button onclick="cal()">=</button></td>
+                    <td><button onclick="calclear()">c</button></td>
+
+
+                </tr>
+               
+
+            </table>
+        </div>
+    </div>
+
+
+
+
+    <script>
+
+
+        function prin(e) {
+            // console.log(e)
+            document.getElementById("screen").value += e;
+        }
+
+
+        function cal() {
+            let a = document.getElementById("screen").value;
+            let calc = eval(a)
+            
+            console.log(calc)
+         document.getElementById("screen").value  =calc;
+
+        }
+
+        function calclear(){
+            console.log('ggggg')
+         document.getElementById("screen").value =""
+        
+            
+
+        }
+    
+
+
+
+//  function opera(e){
+// let operat = "-,+,/,*"
+// if (operat =='+') {
+//     document.getElementById("screen").value =e+e;
+//     ;
+// }
+// else if (operat =='-') {
+//     console.log(e-e);
+//     document.getElementById("screen").value =e-e;
+// }
+// else if (operat =='/') {
+//     console.log(e/e);
+//     document.getElementById("screen").value =e/e;
+// }
+//  else {
+//     console.log(e*e);
+//     document.getElementById("screen").value =e*e;
+// }
+//  }
+
+    </script>
+</head>
+
+</body>
+
+</html>

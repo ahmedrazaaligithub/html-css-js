@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Q8: Write a JavaScript program to find the sign of product of three numbers. 
+        // Display an alert box with the specified sign. Sample numbers : 3, -7, 2
+// Output : The sign is -
+let num1 =+prompt("Enter the first number:");
+let num2 =+prompt("Enter the second number:");
+let num3 =+prompt("Enter the third number:");
+
+let product = num1 * num2 * num3;
+
+let sign = "";
+if (product > 0) {
+  sign = "+";
+} else if (product < 0) {
+  sign = "-";
+} else {
+  sign = "0";
+}
+
+alert("The sign is " + sign);
+
+
+
+
+//--+,++-,--+,-++,---,+++
+</script>
+</body>
+</html>

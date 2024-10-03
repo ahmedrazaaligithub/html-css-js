@@ -1,0 +1,75 @@
+body{
+    background-color: #1e2129;
+    
+}
+
+.container{
+    display: grid;
+    place-content: center;
+    padding: 10px;
+    height: auto;
+    border-radius: 5PX;
+
+    
+}
+.container > div{
+    background-color: rgb(46, 44, 44);
+    padding: 10px 10px;
+
+
+}
+ol > li{
+    text-transform: capitalize;
+}
+input{
+    font-size: 22px;
+    padding: 10px;
+    outline: none;
+    
+    border: none;
+}
+.btns{
+    font-size: 22px;
+    padding: 10px;
+    background-color:transparent ;
+    color: white;
+    border: gray 1px solid;
+    
+    
+}
+.btns:hover{
+    background-color:#1e2129 ;
+
+    border: transparent;
+}
+
+
+
+
+.btn{
+    background-color: rgb(88, 86, 86,10);
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-left: 10px;
+    padding: 4px 9px;
+    float: right;
+    
+}
+.a{
+    background-color: red;
+
+}
+.b{
+    background-color: rgb(129, 206, 14);
+}
+.btn:hover{
+    background-color: transparent;
+}
+li {
+    border-bottom:1px solid white ;
+    color: white;
+    padding: 20px;
+    width: 400px;
+    font-size: 20px;
+}

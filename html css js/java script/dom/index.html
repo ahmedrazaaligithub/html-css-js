@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>manupulating dom</title>
+</head>
+<body>
+    <h1>DOM= Document object model</h1>
+    <div id="main" class="container">
+        <ul id="nav">
+            <li>Home</li>
+            <li>About</li>
+            <li>Servecis</li>
+            <li>More about us</li>
+            <li>Contact us</li>
+        </ul>
+    </div>
+    <div class="container"> 
+        another container
+    </div>
+    <script>
+        let main = document.getElementById("main")
+        console.log(main)
+        // nav.innerHTML="<li>Home</li>"
+        let nav = document.getElementById("nav")
+        console.log(nav)
+        let containers = document.getElementsByClassName("container")
+        console.log(containers[0])
+        // here we have give 2 classes of container that why we said first container means 0 index
+        // css selectors we can select from query selectors
+        let css = document.querySelector(".container")
+        console.log(css)
+
+        // 
+        let one = document.querySelector("#nav>li")
+        console.log(one)
+        // fromquery selector you can just select one element 
+        // but from all you can select all
+        let all = document.querySelectorAll("#nav>li")
+        console.log(all)
+
+              
+        // now the value of nav will change
+    </script>
+</body>
+</html>

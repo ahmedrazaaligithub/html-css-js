@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+   
+    background-image: url("images/New-blog-graphic.jpg");
+ background-size: 100%;
+    background-position: center;
+}
+.color{
+    background-color: rgba(101, 165, 221, 0.37);
+    width: 40%;
+    padding: 30px 40px;
+    color: white;
+    border-radius: 10px;
+    border-bottom: 3px solid cornflowerblue;
+
+}
+.question{
+    margin-bottom: 20px;
+}
+li{
+    padding: 5px 0px;
+  list-style: none;
+  font-size: 18px;
+  color: white;
+}
+#submit{
+  font-size: 20px;
+  margin-top:20px ;
+  padding: 10px 20px;
+  background-color: rgb(15, 100, 156);
+  color: cornflowerblue;
+  border-radius: 10px;
+  border: none;
+
+}
+#submit:hover{
+    color:rgb(15, 100, 156) ;
+    background-color:cornflowerblue ;
+
+}
+
+.showarea{
+    
+    display: none;
+   
+}
+.non{
+    display:none;
+}
+#showscore{
+
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    color: rgb(45, 64, 77);
+    background-color: rgba(87, 163, 230, 0.24);
+    border-radius: 10px;
+ 
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

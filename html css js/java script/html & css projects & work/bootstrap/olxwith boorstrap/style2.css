@@ -1,0 +1,28 @@
+.b{
+    width: 500px;
+}
+@media   (max-width:786px){
+    .b{
+        width: 200px;
+        
+    }
+}
+@media   (max-width:500px){
+    .b{
+        width: 100px;
+        
+    }
+}
+.login{
+    text-decoration: underline;
+}
+.login:hover{
+        text-decoration: none;
+}
+.sell{
+    border: 4px solid;
+    border-color: aqua blue yellow;
+}
+.inputStyle:focus{
+    box-shadow: none !important;
+}

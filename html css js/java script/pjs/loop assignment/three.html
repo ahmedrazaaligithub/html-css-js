@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        // Q11: Write a JavaScript program using switch statement to print remarks on the basis of grade from A to F.
+// Define a function to get the remarks based on the grade
+function getRemarks(grade) {
+  let remarks;
+  switch (grade) {
+    case "A":
+      remarks = "Excellent!";
+      break;
+    case "B":
+      remarks = "Good job!";
+      break;
+    case "C":
+      remarks = "Keep up the good work!";
+      break;
+    case "D":
+      remarks = "You need to work harder.";
+      break;
+    case "E":
+      remarks = "You're not doing very well.";
+      break;
+    case "F":
+      remarks = "You failed.";
+      break;
+    default:
+      remarks = "Invalid grade.";
+  }
+  return remarks;
+}
+
+// Use a do-while loop to prompt the user for a grade until they enter a valid one
+let grade;
+do {
+  grade = prompt("Enter your grade (A to F):");
+} while (!["A", "B", "C", "D", "E", "F"].includes(grade));
+
+// Get the remarks for the grade using the getRemarks function
+const remarks = getRemarks(grade);
+
+// Print the remarks to the console
+alert(remarks);
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     
+</head>
+<body>
+    
+<script>
+       var str = "this is an string"
+       var position = str.indexOf("is")
+       console.log(position)
+       var position = str.lastIndexOf("is")
+       console.log(position)
+    //    index will count the number of word that u have give on index. start from 0 
+    // slice = start from 0 and count negative
+    // sub string =strat from 0 and not count negative
+    // sub str = if u write 1,6 then it will count 1to6
+    // it will show the number what you will write on slice. start from 0
+    var substr = str.slice(1,6)
+    console.log(substr)
+    var substr = str.substring(1,6)
+    console.log(substr)
+    var substr = str.substr(1,6)
+    console.log(substr)
+    var replaced = str.replace("string", "ahmed")
+    console.log(replaced +"'replace'")
+    console.log(str.toUpperCase());
+    console.log(str.toLocaleLowerCase());
+    console.log(str);
+    // concate
+    console.log(str.concat(position));
+    var newstring = str.concat("newstring")
+    console.log (newstring)
+    // trim
+    var trimer = "       trim will give                           space    "
+    console.log(trimer)
+    console.log(trimer.trim())
+    // trim will just conut inside space not from start or end
+    // charAt()
+    var carat = str.charAt(2)
+    // t will show 2nd alpha bate
+    console.log(carat)
+    console.log(str.charCodeAt(2))
+
+    </script>
+   
+</body>
+</html>

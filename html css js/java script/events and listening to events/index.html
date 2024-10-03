@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #btn{
+            background-color: red;
+            border: 2px solid black;
+            padding: 10px 14px;
+            color: white;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+        <!--         // event means like something is happend like i clik on subscribe button so it will subscribe.
+ -->
+    <!-- Broser events:
+    click
+    contextmenue
+     contextmenue event happens when we right click on mouse
+     mouseover/mouseout
+     when you come out from an element its mouse out 
+    but when you come on element that is mouse over
+    mousedown /mouseup
+    when we click button mousedown will happen(fire)
+    mouse move
+
+    submit
+    focus
+
+    domcontent loaded
+    transitioned -->
+
+<!-- <div class="container">
+    <h1>this is an heading</h1>
+    <p id="para">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi obcaecati est ullam eligendi. Sequi modi sed 
+odio alias voluptatibus ex velit accusamus, quidem vero,nulla molestias veritatis facere? Quaerat alias magnam quo 
+suscipit aliquid laudantium deleniti ipsam consectetur, eligendi quibusdam aperiam iure, expedita,  quasi aspernatur. Tenetur, repellat error. Omnis officiis illum aperiam reiciendis 
+culpa minima aliquam fugit consequuntur dolorem nulla. Neque doloribus laudantium odit eos eum error consequuntur 
+blanditiis esse distinctio ad aliquid excepturi placeat, quae porro a, mollitia eaque, magnam sit! Ex rem alias, 
+officiis perspiciatis nulla vel aut libero laudantium repellat vero maxime cumque architecto  consectetur praesentium.
+ Tempore ea nihil dolorum, nam voluptatem asperiores illo animi doloribus deleniti. Officiis amet soluta rem quia
+  minus earum eius iste ut saepe maxime tempora, similique obcaecati vitae quaerat rerum perspiciatis 
+  assumendamollitia excepturi sint quibusdam voluptatem, laborum odit harum dicta?  nobis nemo unde neque dolor. 
+  Cupiditate beatae quidem, sit architecto cum error ratione voluptas pariatur consectetur iure odit soluta 
+  accusantium laudantium! Error vero, fugit repellat commodi eveniet voluptatibus, porro aut officiis inventore quae 
+  quod magni blanditiis dolor maiores rerum provident. Rerum, aut quis! Rerum, quae! Accusamus ea ducimus quasi 
+  aliquam, architecto, repellat neque laudantium voluptates dignissimos eveniet in enim porro consequatur reiciendis 
+  sed obcaecati veniam sit assumenda explicabo possimus consequuntur quos commodi aspernatur. Odit animi minus  obcaecati dolorem nostrum nam officia, sunt quisquam dolor placeat, maiores, ipsa soluta quaerat at numquam voluptatum!
+    </p>
+    <button id="btn" onclick="toggleHide()">show or hide</button>
+</div>--> 
+<input type="text"  id="name" onblur="style.backgroundColor='yellow'" onfocus="style.backgroundColor='red'">   
+<button onclick="getName()">click</button>                                                          
+<script>
+//     let para = document.getElementById("para");
+// para.addEventListener("mouseover", function run(){
+//     if (para.style.fontSize !="18px") {
+//         (para.style.fontSize ="18px")
+//     } else {
+//         (para.style.fontSize ="16px")
+//     }
+// });
+// para.addEventListener("mouseout", function run(){
+//     console.log ("mouse outside")
+// });
+
+
+// function toggleHide(){
+//     let btn = document.getElementById("btn");
+//     let para = document.getElementById("para");
+
+//     if (para.style.display !="none") {
+//         (para.style.display ="none")
+//     } else {
+//         (para.style.display ="block")
+//     }
+// } 
+
+function getName(){
+ var name =document.getElementById('name')
+ alert(name.value)
+ name.value=" "
+  
+}
+
+
+    </script>
+</body>
+</html>

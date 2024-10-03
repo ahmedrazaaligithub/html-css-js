@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(26, 25, 25);
+}
+h1{
+    color: greenyellow;
+    padding:10px 0px 0px 50px ;
+}
+div{
+    background-color: white;
+    margin:10px 70px 0px 10px   ;
+    /* padding:2px 10px 2px 0px ; */
+    /* width: 1050px; */
+text-align: center;
+
+}
+table{
+    display: flex;
+    justify-content: center;
+}
+.table{
+    /* border: 1px solid gray; */
+    text-align: center;
+    /* border-top: 2px solid cornflowerblue; */
+
+
+
+}
+
+.b{
+    border:1px solid grey;
+    border-top: 2px solid cornflowerblue;
+
+}
+
+.tabel-item{
+        padding: 5px 20px 10px 5px;
+        border: 1px solid grey;
+}
+
+td >div{
+    text-align: center;
+    width: 50px;
+    background-color: green;
+    border-radius: 5px;
+    /* padding: 2px 4px 2px 4px; */
+    color: white;
+}
+.male{
+    padding: 0px;
+}
+.i{
+    margin: 0px;
+}

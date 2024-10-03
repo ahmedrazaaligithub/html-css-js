@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<style>
+
+body{
+    /* text-align: center; */
+    align-items: center;
+
+}
+#num{
+    /* text-align: center; */
+    margin: 30px auto;
+    /* background-color: ; */
+    /* align-items: center;
+    border: 3px black solid;
+    height: 10%;
+    width: 10%; */
+}
+.main{
+    text-align: center;
+   
+}
+
+
+
+</style>
+
+<div class="main">
+
+<button id="btn" onclick="change()">play</button>
+<div id="num">
+  <!-- <p>0</p>   -->
+</div>
+
+
+
+</div>
+
+<script>
+
+var btn = document.getElementById("btn")
+var num = document.getElementById("num")
+
+var colors = ["darkgray" , "aquamarine" , "blue" , "coral" , "chartreuse" , "cadetblue" , "blueviolet" , "brown" , "aliceblue" , "aqua" , "deeppink"]
+// console.log( colors.length(3))
+// btn.addEventListener("click" , change())
+
+function change(){
+    
+    var declare = Math.round(Math.random() * 10)
+    console.log(declare)
+    
+    // num.innerHTML = declare
+var color = num.style.backgroundColor = colors[declare]
+
+
+
+var color = num.style.border = '1px solid black'
+var color = num.style.width = '50%'
+var color = num.style.padding    = '30px'
+// var color = num.style.marginTop    = '30px'
+num.innerHTML=colors[declare ]
+num.innerHTML+='<br>'+declare
+
+}
+
+
+
+</script>
+
+</body>
+</html>

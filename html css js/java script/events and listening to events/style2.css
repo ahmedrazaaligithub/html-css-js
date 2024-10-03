@@ -1,0 +1,40 @@
+.main{
+
+    background-color: rgb(65, 112, 201);
+    margin: 0 auto;
+    width: 200px;
+    padding: 5px 5px;
+ 
+
+}
+.result{
+    width: 96%;
+    margin: 3px 0px;
+    outline: none;
+color:  rgb(65, 112, 201);
+font-size: 18px;
+    
+}
+.clear{
+    width:100%;
+ border: transparent;
+ background-color: skyblue;
+color: white;
+}
+.btn{
+    /* background-color:rgb(118, 122, 124) ; */
+    width: 47px;
+    height: auto;
+    margin: 3px 0px;
+ background-color: skyblue;
+ color: white;
+ border: transparent;
+}
+.half{
+    width:97.5px;
+    /* margin-top: 5px; */
+ border: transparent;
+ background-color: skyblue;
+ color: white;
+
+}

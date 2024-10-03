@@ -1,0 +1,33 @@
+
+.container{
+    text-align: center;
+}
+.calculator
+{
+    display: inline-block;
+    background-color: plum;
+    padding: 10px;
+    border-radius: 20px;
+}
+input{
+    font-size: 20px;
+    /* width: auto; */
+    border-radius:20px ;
+    border: 2px solid black;
+
+}
+table{
+    margin: auto;
+}
+button{
+    width: 60px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: rgb(172, 166, 166);
+    border: none;
+    font-weight: bold;
+    box-shadow :none;
+}
+button:hover{
+box-shadow: 2px 2px 3px;
+}

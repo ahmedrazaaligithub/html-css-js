@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            margin: 0px;
+            background: #89CFF0;
+        }
+        ul{
+            background-color: #B9D9EB;
+            color:#034694;
+            font-weight: bold;
+            text-align: end;padding-right:50px ;
+        }
+         ul>li{
+            
+            display: inline-block;
+            padding: 10px 20px;
+        }
+        li:hover{
+            cursor: pointer;
+        }
+        .container{
+          padding-top: 35px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70vh;
+            /* flex-direction: row; */
+        }
+        input{
+            border:1px solid #B2FFFF;
+            font-size: 25px;outline: none;
+        }
+        
+        button{
+            background: #034694;
+            height: 50px;
+            /* width: 100px; */
+            color: #89CFF0;
+           font-size: 18px;padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            
+        }
+        .buttonDiv{
+            display: flex;
+            justify-content: center;
+        }
+        h2{
+           color: #0E3386
+        }
+    </style>
+</head>
+<body>
+    <!-- math object -->
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Docs</li>
+        <li>Info</li>
+    </ul>
+   <div class="container">
+    <div>
+    <h2>Price</h2>
+    <input type="text" id="first" >
+    <h2>Discount</h2> 
+<input type="text"id="scnd"> <br> <br> <br>
+
+<div class="buttonDiv">
+
+    
+    <button 
+   
+    onclick="getDisciountPrice()">Discount</button></div>
+</div>
+    <div><img height="" src="download-removebg-preview.png" alt=""></div>
+   </div>
+
+    <script>
+        // let m = Math;
+        // console.log(m);
+//maths objects constants
+// console.log("the value of math.E is",Math.E );//
+// console.log("the value of Math.LN2 is",Math.LN2 );
+// console.log("the value of Math.LN10 is",Math.LN10 );
+// console.log("the value of Math.LOG2E is",Math.LOG2E );
+// console.log("the value of Math.LOG10E is",Math.LOG10E );
+// console.log("the value of Math.PI is",Math.PI );
+// console.log("the value of Math.SQRT1_2 is",Math.SQRT1_2 );
+// console.log("the value of Math.SQRT2 is",Math.SQRT2 );
+
+// E: 2.718281828459045
+// LN2: 0.6931471805599453
+// LN10: 2.302585092994046
+// LOG2E: 1.4426950408889634
+// LOG10E:0.4342944819032518
+// PI: 3.141592653589793
+// SQRT1_2: 0.7071067811865476
+// SQRT2: 1.4142135623730951
+
+//maths functions
+//let a = 66;
+//let b = 80.7765
+//console.log("The roundoff of a and b is "+Math.round(a),'and', Math.round(b)) //ronudoff function
+//console.log("3 raised to the 2 is ",Math.pow(3,2))//power function
+//console.log("3 raised to the 2 is ",Math.pow(8,3))//power function
+//console.log("11 raised to the 6 is ",Math.pow(11,6))//power function
+//console.log("square root of 36 ",Math.sqrt(36))//square root
+//console.log("square root of 64 ",Math.sqrt(64))//square root
+//console.log("5.8 rounded up to nearest intreger is",Math.ceil(5.8))//ceil
+//console.log("5.8 rounded downto nearest intreger is ",Math.floor(5.8))//floor
+//console.log("absolute value of 5.8 is ",Math.abs(5.8))//absolute
+//console.log("absolute value of -5.8 is ",Math.abs(-5.8))//absolute //if we type postiv value it will
+//remain same but if we put negative value it will show positive value
+//3trignomatric function 
+// console.log("the value of sin(pi) is" ,Math.sin(Math.PI));
+// console.log("the value of tan(pi) is" ,Math.tan(Math.PI));
+// console.log("the value of cos(pi) is" ,Math.cos(Math.PI));
+
+// max and min function
+// console.log("min value in 4,7,10,is",Math.min(4,7,10))
+// console.log("max value in 4,7,10,is",Math.max(4,7,10))
+
+//generating a random number
+// let r = Math.random()
+// console.log("the random number is",r)
+// let a1 = 1;
+// let b1 = 100;
+// let r1_100= a1 + (b1-a1)*Math.random()
+// console.log(r1_100);
+// let a2 = 50;
+// let b2 = 60;
+// let r50_60 = a2 +(b2-a2)*Math.random()
+// console.log(r50_60);
+function getDisciountPrice(num,per){
+  let a=  document.getElementById('first').value
+  let b=  document.getElementById('scnd').value 
+//   per= 90
+ let ans =  a- (b/100)*a    
+alert(Math.round (ans))
+}
+// function discoun(num,per){
+//     // num = 100
+   
+//     per= 90;
+//     // var num = prompt("write your price we ha 10% discount")
+//     var dscnt = (per /100 )*num
+//   console.log(Math.round(dscnt))
+// }
+// discoun()
+</script>
+</body>
+</html>
